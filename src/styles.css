@@ -151,6 +151,11 @@ header {
   color: black;
 }
 
+.button_drop{
+  background-color: white;
+  border: 0;
+}
+
 .up-button {
   right: 100px;
   bottom: 100px;
@@ -272,24 +277,27 @@ header {
 
 .contact {
   padding-top: 150px;
-  background-image: url(/public/donate/1.png);
-  background-size: contain;
+  background-color: #000000 ;
+  
+  
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   position: relative;
 }
 .contact-block {
-  color: wheat;
+  color: white;
+  
 }
 
 .contact-text {
   font-weight: 700;
-  color: wheat;
+  color: white;
 }
 
 .contact-img {
   padding: 20px;
+  
 }
 
 .contact-content {

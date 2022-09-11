@@ -3,7 +3,7 @@ export default function Message() {
     <>
       <div className="contact">
         <div className="contact-img">
-          <img src="/photos/7.png" alt="..." />
+          <img src="/photos/1.png" alt="..." />
         </div>
 
         <div className="contact-block">

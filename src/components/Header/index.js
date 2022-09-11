@@ -1,15 +1,23 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Header() {
+
+  const [drop, setDrop] = useState(false);
+
+ 
+
   return (
     <header>
       <div className="header_drop">
       <div className="logo_drop">
-      
+      <button className="button_drop" onClick={()=> setDrop(!drop)}>
       {" "}
       <img src="../6man.png" alt="logo" width={150} height={100} />{" "}
+      </button>
       </div>
-      <div className="main_drop">
+      {drop && true ? 
+      (<div className="main_drop">
           <ul className="drop_bar">
           <li className="drop-bar_text mr-40">
             <Link to="/" className="drop_bar-link">
@@ -43,7 +51,9 @@ export default function Header() {
           </li>
         </ul>
         </div>
+  ) : null}
       </div>
+
       <div className="header_main">
         <div className="pray">
           Help Ukrainian soldiers return home alive
