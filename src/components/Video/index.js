@@ -15,6 +15,7 @@ export default function Video() {
       </div>
       <video  preload="auto" autoPlay loop muted playsinline className="full-screen__video">
         <source type="video/mp4" src="../bnz.mp4"></source>
+        <source type="video/ogg" src="../bnz.ogg"></source>
       </video>
     </div>
   );
