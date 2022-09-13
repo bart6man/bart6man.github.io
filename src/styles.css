@@ -157,21 +157,22 @@ header {
 }
 
 .up-button {
-  right: 100px;
-  bottom: 100px;
-  border-radius: 50%;
-  border: 0;
-  background-color: rgb(170, 166, 166);
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.7;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.767);
+  color: rgba(255, 255, 255, 0.493);
+  border: none;
 }
 
-.up-button:hover {
-  color: rgb(0, 0, 0);
-  background-color: rgb(241, 234, 234);
-  opacity: 1;
+.menu-button{
+  position: absolute;
+  bottom: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.767);
+  color: rgba(255, 255, 255, 0.493);
 }
+
 
 .full-screen {
   position: relative;
@@ -387,6 +388,11 @@ header {
   padding-top: 150px;
 }
 
+.youtube-video{
+  width: 1200px;
+  height: 630px
+}
+
 .footer {
   background-color: #5e5c5c;
   color: white;
@@ -467,7 +473,9 @@ header {
 
     font-size: 22px;
   }
-
+  .send-button{
+    position: inherit;
+  }
 }
 
 @media (max-width: 729.98px) {
@@ -513,7 +521,7 @@ header {
     background-color: white;
     flex-direction: column;
     position: relative;
-    
+    border-bottom: 1px solid #000;
 
   }
 
@@ -529,9 +537,6 @@ header {
   .header_drop:hover .main_drop{
    display: block;
   }
-
-  
-
   .header_main {
     display: none;
   }
@@ -550,6 +555,23 @@ header {
     flex-direction: column;
     align-items: center;
   }
+    .artist-block{
+    padding-top: 120px;
+  }
+
+  .contact{
+    display: block;
+    padding-top: 102px;
+  }
+  .contact-img{
+    padding: 0;
+  }
+
+  .youtube-video{
+    width: 600px;
+    height: 315px
+  }
+
 }
 
 @media (max-width: 429.98px) {
@@ -577,4 +599,6 @@ header {
     padding: 0 30px;
     font-size: 20px;
   }
+
+
 }

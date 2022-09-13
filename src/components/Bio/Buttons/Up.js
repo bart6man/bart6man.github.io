@@ -11,7 +11,7 @@ export default function Up() {
       }
     >
       {" "}
-      UP
+      <img src="/arr.svg" alt="xxx" />
     </button>
   );
 }

@@ -8,8 +8,8 @@ export default function Beats() {
         <div className="content-container">
           <div className="video-block d-flex justify-center ">
             <iframe
-              width="1200"
-              height="630"
+            className="youtube-video"
+              
               src="https://www.youtube.com/embed/IjGWtqcsQ-I"
               title="YouTube video player"
               frameborder="0"

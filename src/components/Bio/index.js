@@ -126,7 +126,7 @@ export default function Bio() {
                     "MONEYWALK"
                   </a>
                   . It was an amateur vhs video about carefree life in Kryvyi
-                  Rosie Then it became clear that we should strive for quality.
+                  Rih. Then it became clear that we should strive for quality.
                   Later, I met Maxim, the owner of{" "}
                   <a
                     className="bio-link"
@@ -139,8 +139,8 @@ export default function Bio() {
                   .
                 </p>
                 <p>
-                  At that moment, I was posted to the then most relevant hip-hop
-                  portals of the CIS, FAST FOOD MUSIC, so it was decided to play
+                  My records were posted to back then the most relevant hip-hop
+                  portals of the CIS, FAST FOOD MUSIC, so it was decided to show
                   in the spirit of the native city in the upcoming album.
                 </p>
 
@@ -153,8 +153,8 @@ export default function Bio() {
                   >
                     "Broskiy/Dymniy"
                   </a>{" "}
-                  - vibe video for the single of the same name from the upcoming
-                  album "REDCITY" has appeared online
+                  is a single with a vibe video from the upcoming
+                  album "REDCITY" that has appeared online
                 </p>
                 <br />
                 <br />
