@@ -1,3 +1,4 @@
+
 export default function Support() {
   return (
     <div className="content">
@@ -11,6 +12,7 @@ export default function Support() {
           >
             <img className="triton-logo" src="../triton.png" alt="..." />
           </a>
+          
         </div>
       </div>
     </div>

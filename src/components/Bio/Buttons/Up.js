@@ -1,4 +1,6 @@
+
 export default function Up() {
+
   return (
     <button
       className="up-button"
@@ -9,7 +11,7 @@ export default function Up() {
           behavior: "smooth",
         })
       }
-    >
+      >
       {" "}
       <img src="/arr.svg" alt="xxx" />
     </button>

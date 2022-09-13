@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Up from "../Bio/Buttons/Up";
+
 
 export default function Header() {
 
@@ -12,16 +12,16 @@ export default function Header() {
     <header>
       <div className="header_drop">
       
-      <button className="menu-button" onClick={()=> setDrop(!drop)}>
-      <img src="menu.svg" alt="xxx" />
-      </button>
+      
       <div className="logo_drop">
       <button className="button_drop" onClick={()=> setDrop(!drop)}>
       {" "}
       <img src="../6man.png" alt="logo" width={150} height={100} />{" "}
       </button>
       </div>
-      <Up />
+      <button className="menu-button" onClick={()=> setDrop(!drop)}>
+      <img src="menu.svg" alt="xxx" />
+      </button>
       {drop && true ? 
       (<div className="main_drop">
           <ul className="drop_bar">
