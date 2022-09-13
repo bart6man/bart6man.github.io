@@ -13,7 +13,7 @@ export default function Video() {
 
         <div className="full-screen__text">WATCH ON YOUTUBE</div>
       </div>
-      <video  preload="auto" autoPlay loop muted playsinline className="full-screen__video">
+      <video  preload="auto" autoPlay loop muted playsInline className="full-screen__video">
         <source type="video/mp4" src="../bnz.mp4"></source>
         <source type="video/ogg" src="../bnz.ogg"></source>
       </video>
